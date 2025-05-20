@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95fa1edb-7516-4f5f-87de-3c21bedc30cf">
+  <name>pob_ДополнитьФорму</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pob дополнить форму</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
