@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62b50fda-5b09-4817-9bbb-b9622128a8b9">
+  <producedTypes>
+    <objectType typeId="23c03919-60bf-4069-9b54-d88f3f67b785" valueTypeId="fe873ccd-e15a-4cd7-a7bf-3018113d2f13"/>
+    <refType typeId="dc327cc5-761c-4da3-93f3-74fe42525e65" valueTypeId="0e259d16-2619-40b2-95b0-3366dc8b736d"/>
+    <selectionType typeId="3ba1b198-9555-4ca0-aa5c-9ac809ab87d4" valueTypeId="610122d6-fc4e-4ff9-ae4f-1251725e4f63"/>
+    <listType typeId="89eef9c3-1d5b-4784-a535-61836cddebee" valueTypeId="6729e6e3-6f61-4efe-af7a-1d8ea233ee82"/>
+    <managerType typeId="c18ae975-e8e9-4035-a0e9-dfb73dad42dd" valueTypeId="b292a27d-7400-4228-87b4-d9d5ca7d45ff"/>
+  </producedTypes>
+  <name>pob_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.pob_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.pob_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
