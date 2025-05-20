@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50aac22c-12b3-4f89-8173-039cdc429e19">
+  <producedTypes>
+    <objectType typeId="20bcd2b3-6be8-408b-9cc0-0392e903031f" valueTypeId="dbb8fef2-2f40-4d0f-b42e-29498679baaa"/>
+    <refType typeId="389bba3f-51c0-49ac-889b-cd5f458d2ffb" valueTypeId="94f3d135-db76-4067-890d-f28ce55a9859"/>
+    <selectionType typeId="bc8a542c-8d65-4b87-b268-d58e3e36bfb3" valueTypeId="5215ac25-e00c-466b-b7f5-638941633f54"/>
+    <listType typeId="3fef0053-8d90-466c-98b6-20a5f3b1f472" valueTypeId="cb80e5ef-5a37-461b-8524-2996ee7638d5"/>
+    <managerType typeId="23d6293e-6b00-45ee-9716-5648ad3d7081" valueTypeId="f057b5b1-cf0a-4772-92ec-80be315c310b"/>
+  </producedTypes>
+  <name>pob_Доставка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доставка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.pob_Доставка.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.pob_Доставка.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
