@@ -27,6 +27,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.pob_Доставка.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="ca6dbfb8-339c-4675-9753-f6acb80d5bbf">
@@ -122,6 +123,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="0e30262a-5940-4dfc-809e-30a7452e4d68">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="cb892a50-6aa8-424a-a845-c92a50332a70">
     <producedTypes>
       <objectType typeId="6f8f3e5b-a330-41d4-8dcd-30a0aedfa41c" valueTypeId="b9281357-5925-43e2-bf8e-05d06f2a2897"/>
